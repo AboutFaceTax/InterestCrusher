@@ -109,7 +109,8 @@
         </div>
         <div
           className={
-            "text-2xl font-black " +
+            "text-lg sm:text-xl lg:text-2xl font-black "
+ +
             (highlight ? "text-[#8B4513]" : "text-gray-700")
           }
         >
@@ -419,7 +420,8 @@
                       <div className="text-[11px] font-bold uppercase tracking-widest text-[#8B4513] mb-2">
                         Total Interest Saved
                       </div>
-                      <div className="text-4xl md:text-5xl font-serif font-bold text-[#3E2723] mb-1">
+                      <div className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#3E2723] mb-1">
+
                         {formatMoney(result.interestSaved)}
                       </div>
                       <p className="text-xs text-[#8B4513] font-medium">
@@ -553,3 +555,4 @@
   </script>
 </body>
 </html>
+
